@@ -39,7 +39,3 @@ Ensemble learning includes multiple XGBoost models, and the final predictions ar
   - `matplotlib`
   - `plotly`
   - `statsmodels`
-
-You can install the necessary libraries using `pip`:
-```bash
-pip install pandas numpy xgboost scikit-learn matplotlib plotly statsmodels
