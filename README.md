@@ -9,7 +9,7 @@ Predictions of home prices accessible to all can help millions of sellers and bu
 Machine learning can generate predictions for house prices using such features. To this end, machine learning can take input features, find a correlation, and see how they affect the final home price. The correlation between the features can then help generate a final prediction. Therefore, a dataset with training and testing data is required. The training data will train the model to find the correlation between the features, and the testing data will serve as unseen data to evaluate the model.
 
 Accordingly, a dataset that includes such features is needed; however, it is hard to find such a dataset. Conveniently, Kaggle is an online platform that hosts a variety of public datasets. Kaggle has a House Price dataset with features describing different aspects of residential homes in Ames, Iowa. With the dataset, it is possible to construct a model that predicts house prices.
-[Kaggle Dataset: Link](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
+[Kaggle Dataset:](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
 
 ## Algorithms Used
 
