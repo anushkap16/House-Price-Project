@@ -13,20 +13,15 @@ Accordingly, a dataset that includes such features is needed; however, it is har
 
 ## Algorithms Used
 
-### 1. Linear Regression
-Linear regression was used in the first machine learning model since it provides a better understanding of data, is easy to implement, and can generate a prediction for the response variable $Y$ given the dependent variable(s). It can show the relationships between the predictors and response $Y$, helping understand the data and give clarity for data analysis. The insights gained during data analysis can then help build machine learning models with increased accuracy. However, linear regression struggles to identify relationships in complex, non-linear data and outliers can significantly affect the regression, resulting in poor model accuracy.
+1. Linear Regression
 
-### 2. Regularization
-Regularization techniques are used to improve the accuracy of the model and prevent overfitting. It works by adding a penalty term to the loss function to constrain the model’s complexity, increasing its ability to generalize.
+2. Regularization
 
-### 3. Gradient Boosting & eXtreme Gradient Boosting (XGBoost)
-eXtreme Gradient Boosting (XGBoost) was used in this project because it works well with structured data with complex relationships, like the Kaggle House Price dataset. Similar to linear regression, it includes regularization to prevent overfitting and increase model accuracy. XGBoost is a specific implementation of Gradient Boosting, a powerful technique where each new model is trained to fix the mistakes of the previous ones, aiming to improve accuracy. It combines the predictions of multiple weak learners to build a strong learner.
+3. Gradient Boosting & eXtreme Gradient Boosting (XGBoost)
 
-### 4. Hyperparameter Tuning
-Hyperparameter tuning was used to adjust XGBoost parameters using Grid Search to increase model performance.
+4. Hyperparameter Tuning
 
-### 5. Ensemble Learning
-Ensemble learning includes multiple XGBoost models, and the final predictions are the models’ averages. Ensemble learning was used in this project because it provides a comprehensive understanding of the data, generalizes relationships, and reduces overfitting, thereby improving model precision.
+5. Ensemble Learning
 
 ## Requirements
 
